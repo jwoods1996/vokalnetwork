@@ -1,0 +1,705 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('http://protiumdesign.com/wp-content/uploads/2014/07/Network-Connection-1024.jpg');/* Old browsers */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-bar ul li a {
+    display: block;
+    width: 100%;
+}
+
+/*textarea {
+    background: #CCCCCC;
+    border: 1px solid black;
+    margin-bottom: 0.2em;
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+}*/
+
+.bottomMessage {
+    color: black;
+    text-align: center;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.buttonBar {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.cancelButton {
+    float: right;
+}
+
+.commentCount {
+    padding-right: 1em;
+    color: #CCCCCC;
+}
+
+.commentLink a {
+    color: #CCCCCC;
+}
+
+.col-sm-4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-sm-3 {
+    padding-left: 0px;
+    height: 100%;
+}
+
+.commentBox {
+    padding: 1em;
+    height: 6em;
+    background: #505a64; /* Old browsers */
+    background: -moz-linear-gradient(left, #505a64 0%, #828993 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #505a64 0%,#828993 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #505a64 0%,#828993 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505a64', endColorstr='#99a8af',GradientType=1 ); /* IE6-9 */
+    padding-bottom: 2em;
+    border: 2px solid black;
+}
+
+.commentContainer {
+    background: #283341;
+}
+
+.commentContent {
+    overflow: auto;
+    float: left;
+    width: 80%;
+    background: #CCCCCC;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.commentDescription {
+    clear: right;
+    float: left;
+    display: block;
+}
+
+.commentFeed {
+    background: #283341;
+    border: 2px solid black;
+    padding: 1%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.commentForm {
+    
+    color: #CCCCCC;
+    padding: 1em;
+    height: 10em;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+    padding-bottom: 2em;
+    border: 2px solid black;
+}
+
+.commentHeader {
+    display: block;
+}
+
+.comment {
+    float: left
+}
+
+.commentName {
+    font-weight: bold;
+    color: maroon;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.commentOptions {
+    float: right;
+}
+
+.commentTitle {
+    font-weight: bold;
+}
+
+.container {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.documentationBox {
+    color: #CCCCCC;
+    padding: 1em;
+    background: #505a64; /* Old browsers */
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.feedTitle {
+    color: #CCCCCC;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.field-title {
+   margin-bottom: 0.1em;
+}
+
+.footer {
+    margin: 100px;
+}
+.formButton {
+    padding: 0.5em;
+    background: #5A626C;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-top: 1px solid black;
+    border-right: 1px solid gray;
+    color: #CCCCCC;
+}
+
+.formButton.focus,
+.formButton:focus {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.formButton:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.formTitle {
+    font-size: 14pt;
+    margin-left: 0.5em;
+}
+
+.form-fields {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background: #5A626C;
+}
+
+.form-field {
+    display: inline;
+    color: black;
+}
+
+.comment-input {
+    color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.comment-input input {
+    border: 1px solid black;
+    color: black;
+    height: 50px;
+    width: 80%;
+}
+.commentForm textarea {
+    border: 1px solid black;
+    color: black;
+    height: 50px;
+    width: 80%;
+}
+.postForm textarea {
+    border: 1px solid black;
+    color: black;
+    height: 50px;
+    width: 100%;
+}
+.commentButton {
+    padding: 0.5em;
+    float: right;
+    background: #CCCCCC;
+    width: 20%;
+    margin-right:85px;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    color: black;
+}
+.logo {
+    color: #CCCCCC;
+    font-family: 'Times New Roman';
+    margin-left: 10px;
+    font-size: 32pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo:hover, .logo:focus {
+    text-decoration: none;
+    color: #CCCCCC;
+    font-family: 'Times New Roman';
+    margin-left: 10px;
+    font-size: 32pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-bar {
+    height: 100%;
+    margin-top: 40px;
+    list-style-type: none;
+    padding: 0;
+}
+.navbtn {
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #CCCCCC;
+    background-color: RGBA(80,90,100,200);
+}
+.navbtn.focus,
+.navbtn:focus {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.navbtn:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+.profnavbtn {
+    float: left;
+    width: 50%;
+    padding: 0.5em;
+    height: 2.5em;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: #CCCCCC;
+    background-color: RGBA(80,90,100,200);
+}
+.profnavbtn.focus,
+.profnavbtn:focus {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.profnavbtn:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.postBox {
+    padding: 1em;
+    background: #505a64; /* Old browsers */
+    background: -moz-linear-gradient(left, #505a64 0%, #828993 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #505a64 0%,#828993 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #505a64 0%,#828993 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#505a64', endColorstr='#99a8af',GradientType=1 ); /* IE6-9 */
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border: 2px solid black;
+}
+
+.postContainer {
+    border: 1px solid black;
+    padding: 1em;
+    padding-top: 4em;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+}
+
+.postComments {
+    display: inline;
+    float: right;
+}
+
+.postContent {
+    overflow: auto;
+    clear: left;
+    background: #CCCCCC;
+    padding: 1em;
+    margin-top: 2px;
+    border: 1px solid black;
+}
+
+.postDescription {
+    clear: right;
+    float: left;
+    color: #CCCCCC;
+    display: block;
+    margin-left: 10px;
+}
+
+.postFeed {
+    background: #283341;
+    border: 2px solid black;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+.postForm {
+    width: 100%;
+    color: #CCCCCC;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+    border: 2px solid black;
+    padding-bottom: 2.5em;
+    padding-top: 1em;
+    margin-top: 40px;
+}
+
+.postHeader {
+    display: block;
+}
+
+.postIcon{
+    float: left;
+    margin-bottom: 10px;
+}
+.thumbIcon img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.searchIcon img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.postName {
+    font-style: italic;
+}
+
+.postOptions {
+    float: right;
+}
+
+.postTitle {
+    font-weight: bold;
+}
+
+.saveButton {
+    float: left;
+}
+
+.sidebar {
+    position: fixed;
+    width: 240px;
+    padding-top: 20px;
+    color: #CCCCCC;
+    height: 100%;
+    border-right: 2px solid black;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(left, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+}
+
+.userIcon {
+    float: left;
+}
+.userIcon img {
+    width: 50px;
+    height: 50px;
+}
+
+.userInfo {
+    background-color: RGBA(80,90,100,200);
+    padding: 1em;
+    height: 5em;
+    display: block;
+}
+
+.userName {
+    height: 100%;
+    clear: right;
+    float: left;
+    color: #CCCCCC;
+    display: block;
+    margin-left: 10px;
+}
+
+.userSearch {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.searchBtn {
+}
+
+.userSearch input[type=text] {
+    width: 70%;
+}
+.userSearch input[type=submit] {
+    padding: 2px 8px;
+    background-color: RGBA(80,90,100,200);
+    border:0 none;
+    cursor:pointer;
+}
+
+.loginBlock {
+    width: 100%;
+    color: #CCCCCC;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 4em;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.loginStatus {
+    font-size: 14pt;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.createLink {
+    width: 30%;
+    float: right;
+    clear: right;
+}
+
+.loginHeader {
+    height: 4em;
+    margin-bottom: 20px;
+}
+.loginForm {
+    width: 40%;
+}
+.loginForm input[type=text] {
+    float: right;
+    width: 65%;
+}
+.loginForm input[type=password] {
+    float: right;
+    width: 65%;
+}
+.loginForm input[type=submit] {
+    float: right;
+    padding: 2px 8px;
+    background-color: RGBA(80,90,100,200);
+    border:0 none;
+    cursor:pointer;
+}
+
+.commentDescription a {
+    color: maroon;
+}
+.createLink a {
+    color: orange;
+}
+.userName a {
+    color: orange;
+}
+.postName a {
+    color: #CCC;
+}
+.postTitle a {
+    color: orange;
+}
+.personSummary a {
+    color: orange;
+}
+
+.personSummary {
+    float: left;
+    font-size: 10pt;
+    height: 120px;
+    width: 45%;
+    color: #CCCCCC;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 2%;
+}
+.searchResults {
+    width: 100%;
+    color: #CCCCCC;
+    font-size: 16pt;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+    border: 2px solid black;
+    padding: 1em;  
+}
+.userContainer {
+    overflow: auto;
+    border: 1px solid black;
+    padding: 1em;
+    padding-top: 1em;
+    background: #4c5b67;
+}
+.profileHeader {
+    height: 210px;
+    width: 100%;
+    color: #CCCCCC;
+    background: #3a464f; /* Old browsers */
+    background: -moz-linear-gradient(top, #3a464f 0%, #13202f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3a464f 0%,#13202f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3a464f 0%,#13202f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a464f', endColorstr='#13202f',GradientType=1 ); /* IE6-9 */
+    border: 2px solid black;
+    padding: 1em;
+    margin-top: 40px;
+}
+.profileIcon img {
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+.personInfo {
+    font-size: 12pt;
+    width: 50%;
+    padding-left: 20px;
+    float: left;
+}
+
+.interact {
+    float: right;
+}
+
+.friendBtn {
+    padding: 0.5em;
+    background: #5A626C;
+    text-align: center;
+    border: none;
+    color: #CCCCCC;
+    border-radius: 2px;
+}
+
+.friendBtn.focus,
+.friendBtn:focus {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.friendBtn:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.profileNavbar {
+    height: 40px;
+    width: 100%;
+    color: #CCCCCC;
+    border: 2px solid black;
+    background: #3a464f;
+}
+.friendLink a {
+    color: #CCC;
+}
+.postLink a {
+    color: #CCC;
+}
+.friendLink {
+    width: 50%;
+    float: right;
+    background: #3a464f;
+    text-align: center;
+    padding: 0.5em;
+    border-left: 2px solid gray;
+}
+
+.postLink {
+    width: 50%;
+    float: left;
+    background: #3a464f;
+    text-align: center;
+    padding: 0.5em;
+    border-right: 2px solid gray;
+}
+
+.postLink.focus,
+.postLink:focus {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.postLink:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.friendLink.focus,
+.friendLink:focus {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.friendLink:hover {
+    color: #333333;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+.friendLink:focus a{
+    color: #333333;
+}
+
+.friendLink:hover a{
+    color: #333333;
+}
+.postLink:focus a{
+    color: #333333;
+}
+
+.postLink:hover a{
+    color: #333333;
+}
